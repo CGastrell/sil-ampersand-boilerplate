@@ -7,3 +7,5 @@
 *.map
 npm-debug.log
 node_modules
+public/build.js
+public/css
