@@ -20,11 +20,11 @@ module.exports = function(grunt) {
 
     watch: {
 		  js: {
-		    files: ['app/**/*.js','src/**/*.scss'],
+		    files: ['app/**/*.js','app/**/*.jade','!app/components/**/*.js','!app/components/**/*.jade'],
 		    tasks: ['browserify']
 		  },
 		  css: {
-		  	files: ['app/**/*.scss'],
+		  	files: ['app/**/*.scss','!app/components/**/*.scss'],
 		  	tasks: ['compass']
 		  }
 		},
