@@ -1,4 +1,4 @@
-# Sil's ampersand boilerplate
+# Basic Ampersand boilerplate
 
 A very lightweight boilerplate for `ampersand.js` projects, using `browserify` with a `jadeify` and `babelify`(yay, ES6!) transform, `compass` and a very basic node process to serve your static files in `./public`.
 
