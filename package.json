@@ -27,6 +27,6 @@
     "grunt-contrib-connect": "^0.10.1",
     "grunt-contrib-watch": "^0.6.1",
     "jade": "^1.11.0",
-    "jadeify": "^4.4.0",
+    "jadeify": "^4.4.0"
   }
 }
