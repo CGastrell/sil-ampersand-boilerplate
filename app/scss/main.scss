@@ -1,0 +1,47 @@
+body {
+  background-color: #f9f9f9;
+  font-family: 'Helvetica';
+  padding: 50px;
+}
+
+a:link, a:visited {
+  color: #99cc00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darken(#99cc00, 5%);
+}
+
+.button {
+  padding: 10px 30px;
+  background-color: #99cc00;
+  border-radius: 2px;
+  color: #fff !important;
+  text-decoration: none;
+  &:hover {
+    background-color: darken(#99cc00, 5%);
+  }
+}
+
+nav {
+  border-bottom: 1px solid darken(#f9f9f9, 10%);
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  a {
+    display: block;
+    padding: 10px 0;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+.label, .repo {
+  padding: 10px 0;
+}
+
+.label a {
+  margin-left: 20px;
+}

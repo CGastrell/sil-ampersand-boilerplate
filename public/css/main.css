@@ -1,0 +1,59 @@
+/* line 1, ../../app/scss/main.scss */
+body {
+  background-color: #f9f9f9;
+  font-family: 'Helvetica';
+  padding: 50px;
+}
+
+/* line 7, ../../app/scss/main.scss */
+a:link, a:visited {
+  color: #99cc00;
+  text-decoration: none;
+}
+
+/* line 12, ../../app/scss/main.scss */
+a:hover {
+  color: #86b300;
+}
+
+/* line 16, ../../app/scss/main.scss */
+.button {
+  padding: 10px 30px;
+  background-color: #99cc00;
+  border-radius: 2px;
+  color: #fff !important;
+  text-decoration: none;
+}
+/* line 22, ../../app/scss/main.scss */
+.button:hover {
+  background-color: #86b300;
+}
+
+/* line 27, ../../app/scss/main.scss */
+nav {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+/* line 31, ../../app/scss/main.scss */
+nav a {
+  display: block;
+  padding: 10px 0;
+}
+
+/* line 37, ../../app/scss/main.scss */
+li {
+  list-style-type: none;
+}
+
+/* line 41, ../../app/scss/main.scss */
+.label, .repo {
+  padding: 10px 0;
+}
+
+/* line 45, ../../app/scss/main.scss */
+.label a {
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
